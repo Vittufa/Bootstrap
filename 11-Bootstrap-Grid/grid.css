@@ -1,0 +1,37 @@
+.container {
+    display: grid;
+    min-width: 100%;
+}
+
+div {
+    
+    background-color: aquamarine;
+    
+}
+
+.row-sm {
+   
+    grid-template-columns: repeat(2,2fr);
+}  
+.row-md {
+   
+    grid-template-columns: repeat(3,3fr);
+} 
+
+
+
+.row-lg {
+   
+    grid-template-columns: repeat(4,4fr);
+   
+}
+
+.row-xl{
+    
+    grid-template-columns: repeat(6,1fr);
+}
+
+
+
+
+
